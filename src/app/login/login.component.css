@@ -1,0 +1,56 @@
+.text-center{
+    margin-top: 203px;
+    background-color: rgba(248, 247, 250, 0.336);
+    border: none;
+    border-radius: 83px;
+    width: 432px;
+    height: 351px;
+}
+.head{
+
+    /* margin-left: 140px; */
+    color: rgb(240, 230, 230);
+
+
+}
+.input{
+    width: 230px;
+    /* height: 25px; */
+    margin-left: 58px;
+    color:white;
+    background-color: rgba(95, 158, 160, 0.274);
+    
+}
+.btn{
+    width: 89px;
+    border-radius: 76px;
+    border: none;
+    font-size: large;
+    padding: 10px;
+    color: rgb(50, 0, 54);
+    background-color:(193, 54, 135);
+}
+.img{
+    width: 100%;
+    height: 100%
+    
+    
+}
+p:hover, h1:hover, a:hover,btn:hover {
+    background-color: yellow;
+  }
+body{
+    
+    
+        background-image:url("https://c1.wallpaperflare.com/preview/811/367/789/technology-computer-creative-design-thumbnail.jpg");
+        background-size: cover;
+        /* background-attachment: scroll; */
+        overflow: hidden;
+        height: 100vh;
+
+        /* width: 100%;
+        
+
+    
+ */
+}

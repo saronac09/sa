@@ -1,0 +1,46 @@
+data binding in angular
+.......................
+ts-component
+html-view
+
+1. one way binding
+ 1.1 component to view
+    1.1.1 string interpolation  {{}}
+    1.1.2 property binding  []=""   eg:id, name,placeholder
+
+ 1.2 view to component
+    1.2.1 event binding  (event name)="function name()"
+    1.2.2 event binding using $event  (event name)="function name($value)"
+    1.2.3 event binding template rendering variable  # variable
+
+2. two way binding
+   2.1 ngmodel  [(ngmodel)]="value"
+              FormsModule
+
+
+Redirection in angular
+......................
+
+navigateByUrl--method used to Redirection
+
+Router-class
+
+dependency injection
+....................
+
+-to use method of class in another class
+- in constructor
+- accesspecifier public or private
+          variable
+          class name
+
+          eg:private var:Router
+
+Angular services
+................
+common ayitt access cheyande elam database ithlan
+
+create only two file ts and spec ts
+
+
+ng g s  to create a service

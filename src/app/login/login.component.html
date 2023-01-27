@@ -1,0 +1,28 @@
+<body>
+
+    
+
+
+    <form action="">
+        <div class="container p-5  mt-8   text-center">
+        <!-- <h1 class="head">Login</h1> -->
+        <i class="fa-solid fa-4x fa-user"></i>
+        <input  class="form-control mt-3 input text-white" name="acno" [(ngModel)]="acno"   type="text" [placeholder]="data" id="acid" required >
+        <br>
+        
+        <div>
+            <!-- <p>invalid Account Number</p> -->
+        </div>
+        <input  class="form-control mt-3 input text-white" name="psw"  [(ngModel)]="psw"   type="password" placeholder="Password" id="pid" required><br>
+        <div>
+            <!-- <p>invalid password</p> -->
+        </div>
+        <button  type="submit"  (click)="login()" class=" btn btn-primary  mt-2">login</button><br>
+        <a routerLink="register" class="link">Register here</a>
+    
+    </div>
+    </form>
+
+    <!-- <h1>{{aim}}</h1> -->
+
+</body>
